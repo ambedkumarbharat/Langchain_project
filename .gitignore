@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+
+# Data & Vector DB
+data/transcripts/*
+!data/transcripts/.gitkeep
+data/chroma_db/*
+!data/chroma_db/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
